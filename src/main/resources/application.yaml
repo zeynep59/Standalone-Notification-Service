@@ -1,16 +1,17 @@
 cloud:
   aws:
     credentials:
-      accessKeyId: AKIATDCY3TI7WED4C4LO
-      secretKey: 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
+      accessKeyId: ${ACCESS_KEY_ID}
+      secretKey: ${SECRET_KEY}
+    region: us-east-1
 twilio:
-  account_sid: AC4a99cfa1acdad5fcef401c53d7b5d2b3
-  auth_token: c89e1cf2f1f51cc1f03f217b17ad896c
-  trial_number: +18148139383
+  account_sid: ${ACCOUNT_SID}
+  auth_token: ${AUTH_TOKEN}
+  from_number: ${FROM_NUMBER}
 
 figensoft:
   url: https://www.postaguvercini.com/api_http
-  singleSms:singleSMS: /sendsms.asp
+  singleSMS: /sendsms.asp
   username: ${FIGEN SOFT_USERNAME}
   password: ${FIGEN SOFT_PASSWORD}
   timeout: 5s
