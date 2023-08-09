@@ -1,4 +1,4 @@
-Sms 
+Sms For Standalone Notification Service
 ===
 
 The Standalone SMS Notification Service is a robust Spring Boot solution that seamlessly integrates multiple SMS service providers, including Twilio, Figensoft, and AWS SNS.
